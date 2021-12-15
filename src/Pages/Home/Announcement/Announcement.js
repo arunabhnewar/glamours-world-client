@@ -3,7 +3,7 @@ import Typical from 'react-typical';
 
 const Container = styled.div`
     height: 36px;
-    background-color: teal;
+    background-color: coral;
     display: flex;
     color: white;
     align-items: center;
@@ -18,8 +18,8 @@ const Announcement = () => {
             <Typical
                 loop={Infinity}
                 steps={[
-                    "Christmas Offer !! Free Shipping on Orders Over $50", 5000,
-                    "Christmas Discount !! 15% discount on each product", 5000
+                    "Christmas Offer !! Free Shipping on Orders Over $50", 7000,
+                    "Christmas Discount !! 15% discount on each product", 7000
                 ]}
             />
         </Container>

@@ -16,9 +16,19 @@ const Logo = styled.h2`
     color: teal;
 `;
 
-const Details = styled.p`
-    margin: 20px 0px;
+const Original = styled.img`
+    width: 10%;
+    margin-right: 10px;
+`;
+
+const Guarantee = styled.span`
     color: gray;
+    font-weight: 700;
+`;
+
+const Return = styled.img`
+    width: 10%;
+    margin-right: 10px;
 `;
 
 const SocialContainer = styled.div`
@@ -69,9 +79,10 @@ const Right = styled.div`
 `;
 
 const ContactItem = styled.div`
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: gray;
 `;
 
 const Payment = styled.img`
@@ -83,7 +94,14 @@ const Footer = () => {
         <Container>
             <Left>
                 <Logo>Glamours World</Logo>
-                <Details>The world wide web is evolving at a relentless pace, and with an accelerated growth each passing year, there is bound to be an overwhelming surge of online content. It was for this very reason that personalisation of search feeds was proposed as a solution to combat the overload of irrelevant information.</Details>
+                <ContactItem>
+                    <Original src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png" />
+                    <Guarantee>100% ORIGINAL guarantee </Guarantee>
+                </ContactItem>
+                <ContactItem>
+                    <Return src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png" />
+                    <Guarantee>Return within 30days</Guarantee>
+                </ContactItem>
                 <SocialContainer>
                     <SocialIcon color="55ACEE">
                         <Twitter />
@@ -108,13 +126,13 @@ const Footer = () => {
                 <List>
                     <ListItem> Home</ListItem>
                     <ListItem> Cart</ListItem>
-                    <ListItem> Man Fashion</ListItem>
-                    <ListItem>Woman Fashion</ListItem>
-                    <ListItem>Accessories</ListItem>
+                    <ListItem>Men Zone</ListItem>
+                    <ListItem>Women Zone</ListItem>
+                    <ListItem>Trends Fashion</ListItem>
                     <ListItem>My Account</ListItem>
                     <ListItem>Order Tracking</ListItem>
                     <ListItem>Wishlist</ListItem>
-                    <ListItem>Privacy</ListItem>
+                    <ListItem>FAQ</ListItem>
                     <ListItem>Terms</ListItem>
                 </List>
             </Center>
@@ -122,13 +140,13 @@ const Footer = () => {
             <Right>
                 <Title>Contact</Title>
                 <ContactItem>
-                    <Room style={{ marginRight: "10px" }} /> 622 Dixie Path , South Tobinchester 98336
+                    <Room style={{ marginRight: "10px" }} /> 333 niketon, gulshan 1, dhaka
                 </ContactItem>
                 <ContactItem>
-                    <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
+                    <Phone style={{ marginRight: "10px" }} /> +880 123 456 789
                 </ContactItem>
                 <ContactItem>
-                    <MailOutline style={{ marginRight: "10px" }} /> contact@lama.dev
+                    <MailOutline style={{ marginRight: "10px" }} /> glamours.world@mail.com
                 </ContactItem>
                 <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
             </Right>
