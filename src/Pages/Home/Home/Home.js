@@ -4,6 +4,7 @@ import Announcement from '../Announcement/Announcement';
 import Banner from '../Banner/Banner';
 import MenCategories from '../Categories/MenCategories/MenCategories';
 import WomenCategories from '../Categories/WomenCategories/WomenCategories';
+import Products from '../Products/Products';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Banner />
             <MenCategories />
             <WomenCategories />
+            <Products />
         </div>
     );
 };

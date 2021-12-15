@@ -1,20 +1,6 @@
 [
     {
         "id": 1,
-        "title": "Roadster Fast and Furious",
-        "summary": "Women Blue Solid Denim Jacket",
-        "price": "1304",
-        "discount": "55% OFF",
-        "category": "women",
-        "rating": "4.2",
-        "ratingCount": "1.4k",
-        "details": "Blue solid denim jacket, has a faux fur spread collar, four pockets, button closure, long sleeves, straight hem, faux fur lining",
-        "size": "Slim Fit",
-        "material": "Cotton",
-        "img": "https://winter-trends.netlify.app/trends-1.jpg"
-    },
-    {
-        "id": 2,
         "title": "Roadster",
         "summary": "Women Green Self-Design Pullover",
         "price": "839",
@@ -28,7 +14,7 @@
         "img": "https://winter-trends.netlify.app/trends-2.jpg"
     },
     {
-        "id": 3,
+        "id": 2,
         "title": "Mast & Harbour",
         "summary": "Women Grey Self Design Pullover",
         "price": "1499",
@@ -42,7 +28,7 @@
         "img": "https://winter-trends.netlify.app/trends-3.jpg"
     },
     {
-        "id": 4,
+        "id": 3,
         "title": "Roadster",
         "summary": "Women Coral Pink Solid Hooded Sweatshirt",
         "price": "599",
@@ -56,7 +42,7 @@
         "img": "https://winter-trends.netlify.app/trends-4.jpg"
     },
     {
-        "id": 5,
+        "id": 4,
         "title": "Roadster",
         "summary": "Women Red Solid Hooded Sweatshirt",
         "price": "659",
@@ -70,7 +56,7 @@
         "img": "https://winter-trends.netlify.app/trends-5.jpg"
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "Roadster",
         "summary": "Women Mustard Yellow Solid Hooded Sweatshirt",
         "price": "599",
@@ -84,7 +70,7 @@
         "img": "https://winter-trends.netlify.app/trends-6.jpg"
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "RDSTR",
         "summary": "Blue Sweater",
         "price": "999",
@@ -98,7 +84,7 @@
         "img": "https://winter-trends.netlify.app/trends-7.jpg"
     },
     {
-        "id": 8,
+        "id": 7,
         "title": "Roadster",
         "summary": "Men Navy Blue Solid Hooded Sweatshirt",
         "price": "779",
@@ -112,7 +98,7 @@
         "img": "https://winter-trends.netlify.app/trends-8.jpg"
     },
     {
-        "id": 9,
+        "id": 8,
         "title": "Roadster",
         "summary": "Men Black Solid Hooded Sweatshirt",
         "price": "768",
@@ -126,7 +112,7 @@
         "img": "https://winter-trends.netlify.app/trends-9.jpg"
     },
     {
-        "id": 10,
+        "id": 9,
         "title": "Roadster",
         "summary": "Men Black Solid Hooded Sweatshirt",
         "price": "779",
@@ -140,7 +126,7 @@
         "img": "https://winter-trends.netlify.app/trends-10.jpg"
     },
     {
-        "id": 11,
+        "id": 10,
         "title": "Roadster",
         "summary": "Men Navy Blue Solid Sweatshirt",
         "price": "699",
@@ -152,19 +138,5 @@
         "size": "Regular Fit",
         "material": "Cotton blend",
         "img": "https://winter-trends.netlify.app/trends-11.jpg"
-    },
-    {
-        "id": 12,
-        "title": "WROGN",
-        "summary": "Men Brown Solid Biker Jacket",
-        "price": "2699",
-        "discount": "40% OFF",
-        "category": "men",
-        "rating": "4.3",
-        "ratingCount": "483",
-        "details": "Brown solid biker jacket, has a mock collar, two pockets, zip closure, long sleeves, straight hem, polyester lining",
-        "size": "Regular Fit",
-        "material": "100% polyester",
-        "img": "https://winter-trends.netlify.app/trends-12.jpg"
     }
 ]

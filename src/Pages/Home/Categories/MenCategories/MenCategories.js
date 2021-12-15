@@ -9,8 +9,9 @@ const Container = styled.div`
 const Title = styled.h2`
     font-size: 32px;
     color: teal;
-    text-align: center;
     font-weight: 700;
+    margin-left: 20px;
+    text-align: left;
 `;
 
 const Products = styled.div`
