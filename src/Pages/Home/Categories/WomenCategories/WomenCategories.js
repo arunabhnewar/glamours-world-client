@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import WomenCategory from "./WomenCategory/WomenCategory";
-
+import { mobile } from "../../../../MediaQuery";
 
 const Container = styled.div`
     margin-top: 50px;
@@ -18,6 +18,7 @@ const Products = styled.div`
     display: flex;
     padding: 20px;
     justify-content: space-between;
+    ${mobile({ padding: "0px", flexDirection: "column" })};
 `;
 
 const womanCategories = [

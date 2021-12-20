@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { mobile } from "../../../MediaQuery";
 
 const Container = styled.div`
     background: linear-gradient(
-    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.4),
     rgba(255, 255, 255, 0.5)
   ),
   url("https://images.hdqwalls.com/download/lindsay-ellingson-4k-2018-by-3840x2400.jpg")
@@ -19,6 +20,7 @@ const Wrapper = styled.div`
     background-color: white;
     width: 40%;
     padding: 20px;
+    ${mobile({ width: "75%" })}
 `;
 
 const Title = styled.h2`
@@ -69,7 +71,7 @@ const Register = () => {
                     <Agreement>
                         By creating an account, I agree to the <b style={{ color: "#FF6347", cursor: "pointer" }}>Terms of Use</b> and <b style={{ color: "#FF6347", cursor: "pointer" }}>Privacy Policy</b>. Have trouble Sign Up? <b style={{ color: "#FF6347", cursor: "pointer" }}>Get Help</b>
                     </Agreement>
-                    <Button>CREATE</Button>
+                    <Button>SIGN UP</Button>
                 </Form>
             </Wrapper>
         </Container>

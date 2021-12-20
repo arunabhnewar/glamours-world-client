@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Typical from 'react-typical';
+import { mobile } from '../../../MediaQuery';
 
 const Container = styled.div`
     height: 36px;
@@ -10,6 +11,7 @@ const Container = styled.div`
     justify-content: center;
     font-size: 16px;
     font-weight: 500;
+    ${mobile({ fontSize: "12px" })};
 `;
 
 const Announcement = () => {

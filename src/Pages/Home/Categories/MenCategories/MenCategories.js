@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import MenCategory from "./MenCategory/MenCategory";
-
+import { mobile } from "../../../../MediaQuery";
 
 const Container = styled.div`
-    
 `;
 
 const Title = styled.h2`
@@ -18,6 +17,7 @@ const Products = styled.div`
     display: flex;
     padding: 20px;
     justify-content: space-between;
+    ${mobile({ padding: "0px", flexDirection: "column" })};
 `;
 
 const manCategories = [

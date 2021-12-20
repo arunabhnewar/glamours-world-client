@@ -5,10 +5,9 @@ import Contact from '../Home/Contact/Contact';
 import Products from '../Home/Products/Products';
 import Footer from '../Shared/Footer/Footer';
 import Navbar from '../Shared/Navbar/Navbar'
+import { mobile } from '../../MediaQuery';
 
-const Container = styled.div`
-
-`;
+const Container = styled.div``;
 
 const Title = styled.h2`
     margin: 20px;
@@ -22,6 +21,7 @@ const FilterContainer = styled.div`
 
 const Filter = styled.div`
     margin: 20px;
+    ${mobile({ width: "0px 20px", display: "flex", flexDirection: "column" })};
 `;
 
 const FilterText = styled.span`
@@ -29,6 +29,7 @@ const FilterText = styled.span`
     font-size: 20px;
     font-weight: 600;
     margin-right: 20px;
+    ${mobile({ marginRight: "0px" })};
 `;
 
 const Select = styled.select`
@@ -36,6 +37,7 @@ const Select = styled.select`
     margin-right: 20px;
     outline: none;
     cursor: pointer;
+    ${mobile({ margin: "10px 0px" })}
 `;
 
 const Option = styled.option`

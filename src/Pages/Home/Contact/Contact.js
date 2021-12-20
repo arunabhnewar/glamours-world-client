@@ -1,5 +1,6 @@
 import { Send } from '@material-ui/icons';
 import styled from 'styled-components';
+import { mobile } from '../../../MediaQuery';
 
 const Container = styled.div`
     margin-top: 50px;
@@ -13,16 +14,17 @@ const Container = styled.div`
 
 const Title = styled.h2`
     color: teal;
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 20px;
     font-weight: 700;
 `;
 
 const Details = styled.div`
-    font-size: 24px;
+    font-size: 22px;
     color: gray;
     font-weight: 300;
     margin-bottom: 20px;
+    ${mobile({ textAlign: "center" })};
 `;
 
 const InputContainer = styled.div`
@@ -33,6 +35,7 @@ const InputContainer = styled.div`
     width: 50%;
     height: 40px;
     background-color: white;
+    ${mobile({ width: "80%" })};
 `;
 
 const Input = styled.input`

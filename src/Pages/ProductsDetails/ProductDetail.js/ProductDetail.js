@@ -4,14 +4,14 @@ import Announcement from "../../Home/Announcement/Announcement";
 import Contact from "../../Home/Contact/Contact";
 import Footer from "../../Shared/Footer/Footer";
 import Navbar from "../../Shared/Navbar/Navbar";
+import { mobile } from "../../../MediaQuery";
 
-const Container = styled.div`
-
-`;
+const Container = styled.div``;
 
 const Wrapper = styled.div`
     padding: 50px;
     display: flex;
+    ${mobile({ padding: "10px", flexDirection: "column" })};
 `;
 
 const ImageContainer = styled.div`
@@ -22,11 +22,13 @@ const Image = styled.img`
     object-fit: cover;
     width: 100%;
     height: 90vh;
+    ${mobile({ height: "40vh" })};
 `;
 
 const InfoContainer = styled.div`
     flex: 1;
     padding: 0px 50px;
+    ${mobile({ padding: "10px" })};
 `;
 
 const Title = styled.h2`
@@ -43,7 +45,7 @@ const Rating = styled.h4`
     color: gray;
 `;
 
-const Description = styled.p`
+const Details = styled.p`
     margin: 20px 0px;
     color: gray;
 `;
@@ -58,6 +60,7 @@ const FilterContainer = styled.div`
     margin: 30px 0px;
     display: flex;
     justify-content: space-between;
+    ${mobile({ width: "100%" })};
 `;
 
 const Filter = styled.div`
@@ -95,6 +98,7 @@ const AddContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    ${mobile({ width: "100%" })};
 `;
 
 const AmountContainer = styled.div`
@@ -137,14 +141,14 @@ const ProductDetail = () => {
             <Navbar />
             <Wrapper>
                 <ImageContainer>
-                    <Image src="https://glam-world-shirts.netlify.app/shirts-3.jpg" />
+                    <Image src="https://winter-trends.netlify.app/trends-9.jpg" />
                 </ImageContainer>
                 <InfoContainer>
-                    <Title>Campus Sutra</Title>
-                    <Summary>Men Navy Blue Striped Pure Cotton Regular Fit Casual Shirt</Summary>
-                    <Rating>4</Rating>
-                    <Description>Navy blue and grey colour blocked casual shirt, has a spread collar, long sleeves, button placket, and curved hem</Description>
-                    <Price>$ 30</Price>
+                    <Title>Roadster</Title>
+                    <Summary>Men Black Solid Hooded Sweatshirt</Summary>
+                    <Rating>4.4</Rating>
+                    <Details>Black solid sweatshirt, has a hood, long sleeves, straight hem</Details>
+                    <Price>$ 15</Price>
 
                     <FilterContainer>
                         <Filter>
